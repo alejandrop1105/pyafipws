@@ -3,7 +3,9 @@
 
 name: Windows Installer
 
-on: [push]
+on: 
+
+  workflow_dispatch:
 
 jobs:
   compile:
